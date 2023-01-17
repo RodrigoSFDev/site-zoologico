@@ -2,11 +2,48 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(97, 73, 102);
+}
+.zoo {
+    color: aqua;
+    text-align: center;
+    font-size: 80px;
+}
 section {
+    display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .relato {
-    background-color: gray;
-    margin: 10px;
-    
+    background-color: rgb(211, 198, 240);
+    margin: 30px;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+
+}
+.relato2 {
+    background-color: rgb(211, 198, 240);
+    margin: 30px;
+    padding: 10px;
+    width: 500px;
+    height: 250px;
+}
+.zoo2 {
+    color: aqua;
+    text-align: center;
+    font-size: 60px;
+}
+img{
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color:rgb(211, 198, 240) ;
+}
+.rodape{
+    text-align: center;
+    font-size: 70px;
 }
