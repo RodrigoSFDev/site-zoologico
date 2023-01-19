@@ -42,8 +42,13 @@ img{
 }
 footer{
     background-color:rgb(211, 198, 240) ;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
 }
-.rodape{
-    text-align: center;
-    font-size: 70px;
+a{
+    text-decoration: none;
+    color:black
 }
